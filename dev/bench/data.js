@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720737405593,
-  "repoUrl": "https://github.com/CihatAltiparmak/moveit_middleware_benchmark",
+  "lastUpdate": 1721602919265,
+  "repoUrl": "https://github.com/DarkusAlphaHydranoid/moveit_middleware_benchmark",
   "entries": {
     "Movet Middleware Benchmark Project Perception Pipeline Benchmark": [
       {
@@ -30,6 +30,36 @@ window.BENCHMARK_DATA = {
             "value": 257076855860.00003,
             "unit": "ns/iter",
             "extra": "iterations: 1\ncpu: 1715919191 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jarbay910@gmail.com",
+            "name": "DarkusAlphaHydranoid",
+            "username": "DarkusAlphaHydranoid"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a2631155b19ee3862ebbacc807810cb26002bb5f",
+          "message": "Merge pull request #5 from DarkusAlphaHydranoid/fix/pass_benchmark_args_through_commanline\n\nFix/pass benchmark args through commanline",
+          "timestamp": "2024-07-22T01:52:35+03:00",
+          "tree_id": "aa7a6ea1411cfef132c04acbc7d450ed7e804995",
+          "url": "https://github.com/DarkusAlphaHydranoid/moveit_middleware_benchmark/commit/a2631155b19ee3862ebbacc807810cb26002bb5f"
+        },
+        "date": 1721602918975,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "ScenarioPerceptionPipelineFixture/test_scenario_perception_pipeline",
+            "value": 258286852014.00003,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 1693567538 ns\nthreads: 1"
           }
         ]
       }
