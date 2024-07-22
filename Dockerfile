@@ -22,4 +22,8 @@ RUN . /opt/ros/rolling/setup.sh && \
 
 RUN . /opt/ros/rolling/setup.sh && \
     cd ws && \
+    colcon build --mixin release --packages-skip test_dynmsg dynmsg_demo --packages-up-to moveit_setup_app_plugins
+
+RUN . /opt/ros/rolling/setup.sh && \
+    cd ws && \
     colcon build --mixin release --packages-skip test_dynmsg dynmsg_demo
