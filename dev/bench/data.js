@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721641710549,
+  "lastUpdate": 1721731684790,
   "repoUrl": "https://github.com/DarkusAlphaHydranoid/moveit_middleware_benchmark",
   "entries": {
     "Movet Middleware Benchmark Project Perception Pipeline Benchmark": [
@@ -180,6 +180,36 @@ window.BENCHMARK_DATA = {
             "value": 309172844761,
             "unit": "ns/iter",
             "extra": "iterations: 1\ncpu: 2029622711 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jarbay910@gmail.com",
+            "name": "DarkusAlphaHydranoid",
+            "username": "DarkusAlphaHydranoid"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "09d60d6b9ac166ce5f8321c340dba7bcf8b4c891",
+          "message": "Update moveit_middleware_benchmark.repos",
+          "timestamp": "2024-07-23T13:43:00+03:00",
+          "tree_id": "1b280d53d09b6c64df8bc27dd6388b58631b6903",
+          "url": "https://github.com/DarkusAlphaHydranoid/moveit_middleware_benchmark/commit/09d60d6b9ac166ce5f8321c340dba7bcf8b4c891"
+        },
+        "date": 1721731684506,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "ScenarioPerceptionPipelineFixture/test_scenario_perception_pipeline",
+            "value": 211389246933,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 1367460923 ns\nthreads: 1"
           }
         ]
       }
