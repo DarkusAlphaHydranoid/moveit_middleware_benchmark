@@ -19,8 +19,9 @@ RUN . /opt/ros/rolling/setup.sh && \
     cd ws && \
     rosdep update --rosdistro=$ROS_DISTRO && \
     apt-get update && \
-    rosdep install --from-paths src --ignore-src -r -y
-
+    rosdep install --from-paths src --ignore-src -r -y && \
+    apt upgrade -y
+    
 RUN . /opt/ros/rolling/setup.sh && \
     cd ws && \
     colcon build --mixin release --packages-skip test_dynmsg dynmsg_demo
