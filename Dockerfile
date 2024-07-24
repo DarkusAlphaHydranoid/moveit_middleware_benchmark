@@ -1,6 +1,7 @@
 FROM ros:rolling
 
 RUN apt-get update && \
+    apt upgrade -y && \
     apt install wget -y
 
 RUN mkdir ws/src -p
@@ -19,10 +20,6 @@ RUN . /opt/ros/rolling/setup.sh && \
     rosdep update --rosdistro=$ROS_DISTRO && \
     apt-get update && \
     rosdep install --from-paths src --ignore-src -r -y
-
-RUN . /opt/ros/rolling/setup.sh && \
-    cd ws && \
-    colcon build --mixin release --packages-skip test_dynmsg dynmsg_demo --packages-up-to moveit_setup_app_plugins
 
 RUN . /opt/ros/rolling/setup.sh && \
     cd ws && \
