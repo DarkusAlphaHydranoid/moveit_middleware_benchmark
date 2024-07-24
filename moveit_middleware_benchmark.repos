@@ -1,8 +1,8 @@
 repositories:
-  moveit_msgs:
+  moveit2:
     type: git
-    url: https://github.com/CihatAltiparmak/moveit2.git
-    version: fix/test_perception_linking_error
+    url: https://github.com/moveit/moveit2.git
+    version: main
   moveit_resources:
     type: git
     url: https://github.com/moveit/moveit_resources.git
