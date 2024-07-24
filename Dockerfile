@@ -1,7 +1,6 @@
 FROM ros:rolling
 
 RUN apt-get update && \
-    apt upgrade -y && \
     apt install wget -y
 
 RUN mkdir ws/src -p
